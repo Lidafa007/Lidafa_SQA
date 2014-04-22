@@ -1,0 +1,20 @@
+My understanding of formal methods in general and model checking in particular.
+
+Generally speaking, formal methods includes formal specification and formal verification since 
+there is a formula: Formal methods = formal specification + formal verification.
+
+Formal specifications are mathematically based techniques whose purpose are to help with the 
+implementation of systems and software. They are used to describe a system, to analyze its 
+behavior, and to aid in its design by verifying key properties of interest through rigorous 
+and effective reasoning tools. 
+
+Formal verification is the act of proving or disproving the correctness of intended algorithms
+underlying a system with respect to a certain formal specification or property, using formal 
+methods of mathematics. The verification of these systems is done by providing a formal proof 
+on an abstract mathematical model of the system, the correspondence between the mathematical 
+model and the nature of the system being otherwise known by construction.
+
+As to the model checking, one approach to formal verification is model checking, which consists
+of a systematically exhaustive exploration of the mathematical model. Usually this consists of
+exploring all states and transitions in the model, by using smart and domain-specific abstraction
+techniques to consider whole groups of states in a single operation and reduce computing time.
