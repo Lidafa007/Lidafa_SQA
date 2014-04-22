@@ -1,0 +1,20 @@
+How to construct DDG?
+
+From the chapter 11, we have the overall strategy and basic steps to do it.
+
+Overall strategy: 1. Backward chaining/resolution
+                  2. Computation flow
+                        result backward
+                        implementation forward
+                  3. For DDGs based on specifications
+
+Basic steps:
+
+                  1. Identify output variable(s) (OV)
+                  2. Backward chaining to resolve OV
+                        variables used in its computation
+                        identify D-U relations
+                        repeat above steps for other variables
+                        until all resolved as input/constants
+                  3. Handling conditional definitions in above
+                  
