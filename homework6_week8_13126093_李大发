@@ -8,6 +8,36 @@ Overall, QA is different from Defect and QA is focusing on correctness aspact of
 defect is one job for QA. As to Diandian app, we must consider the impact on costumers of the functions
 before the production release. when developing this app, the functions realization must be considered 
 and the stabity and robustness are important. In a word, many things need to be considered to ensure the
-quality of software system.
+quality of software system. I want to explain three main aspects of quality assurance from my point of 
+view.
 
+1.Do good inspection
 
+  Throughout the software process
+      Coding phase: code inspection
+      Design phase: design inspection
+      Inspection in other phases and at transitions from one phase to another
+  Many different software artifacts
+      program code, typically
+      requirement/design/other documents
+      charts/models/diagrams/tables/etc
+  As Diandian is a app of helping users to remember words, it is a must to do specific inspection during
+  reuirement and coding phase. Make sure all the functions works correctly and accurately.
+  
+2.Defect dectations and preventions
+  
+  What is defect? Defect are errors, faults and failures, and finding them means a lot to ensure system 
+  quality. Defect dectations and preventions are key QA activities. Making specific defect control plan
+  is quite good for defect dectations and preventions. Finding source code error or skeleton error of the
+  system can help QAs to ensure the quality of the system.
+
+3.Make a good test plan
+
+  Quality should be built in throughout the development life cycle rather than tested in at the end of a 
+  project. This is also an important part of the agile development process which we can use when making
+  the app of DianDian(点点单词). We test what we do, whether it’s design, code, or documentation, early 
+  and often so that defects are found while the work is still fresh in people’s minds and before the defects 
+  can become too deeply embedded in the software.
+  
+The content above is my view of how to ensure the quality of software system.
+  
