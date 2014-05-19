@@ -1,0 +1,13 @@
+How to ensure the quality of software system
+
+QA is of great importance to a softare system and we need to pay attention on how to ensure the 
+quality of software system. In this article, I want to take diandian as the target system to explain 
+why it is important.
+
+Overall, QA is different from Defect and QA is focusing on correctness aspact of Quality. Dealing with
+defect is one job for QA. As to Diandian app, we must consider the impact on costumers of the functions
+before the production release. when developing this app, the functions realization must be considered 
+and the stabity and robustness are important. In a word, many things need to be considered to ensure the
+quality of software system.
+
+
